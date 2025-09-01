@@ -1,5 +1,45 @@
 # Exercícios de JavaScript para Pythonistas
 
+## Como fazer o Pull Request?
+
+Para resolver estes exercícios, você deve criar um **Pull Request (PR)** diretamente no repositório, sem a necessidade de fazer um fork. Siga os passos abaixo:
+
+1. **Clone o repositório** (se ainda não tiver clonado):
+
+   ```bash
+   git clone https://github.com/Alicite/exercicios_js_pythonistas.git
+   cd exercicios_js_pythonistas
+   ```
+
+2. **Crie uma nova branch** para a sua alteração:
+
+   ```bash
+   git checkout -b 4INFO3-seu-nome
+   ```
+
+3. **Faça as modificações necessárias** no código ou na documentação.
+
+4. **Adicione e faça commit das alterações:**
+
+   ```bash
+   git add .
+   git commit -m "Descrição clara da alteração"
+   ```
+
+5. **Envie a branch para o repositório remoto:**
+
+   ```bash
+   git push origin 4INFO3-seu-nome
+   ```
+
+6. **Abra um Pull Request:**
+
+   * Vá até a página do repositório no GitHub.
+   * Clique em **Compare & pull request**.
+   * Descreva suas alterações e envie o PR.
+
+---
+
 ## Exercício 1: Variáveis e Tipos de Dados
 
 **Objetivo:** Praticar a declaração de variáveis com `let` e `const` e identificar tipos de dados em JavaScript.
