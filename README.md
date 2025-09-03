@@ -14,7 +14,7 @@ Para resolver estes exercícios, você deve criar um **Pull Request (PR)** diret
 2. **Crie uma nova branch** para a sua alteração:
 
    ```bash
-   git checkout -b 4INFO3-seu-nome
+   git checkout -b TURMA-seu-nome
    ```
 
 3. **Faça as modificações necessárias** no código ou na documentação.
