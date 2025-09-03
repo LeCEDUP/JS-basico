@@ -29,7 +29,7 @@ Para resolver estes exercícios, você deve criar um **Pull Request (PR)** diret
 5. **Envie a branch para o repositório remoto:**
 
    ```bash
-   git push origin 4INFO3-seu-nome
+   git push origin TURMA-seu-nome
    ```
 
 6. **Abra um Pull Request:**
