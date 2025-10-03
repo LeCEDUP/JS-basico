@@ -1,6 +1,6 @@
 function encontrarProdutoMaisCaro(produtos) {
   if (produtos.length === 0) {
-    return null; // ou lançar um erro, dependendo do que preferir
+    return null; 
   }
 
   let produtoMaisCaro = produtos[0];
@@ -14,7 +14,7 @@ function encontrarProdutoMaisCaro(produtos) {
   return produtoMaisCaro;
 }
 
-// Teste com o array de produtos
+
 const produtos = [
   { nome: "Teclado Mecânico", preco: 350 },
   { nome: "Monitor Ultrawide", preco: 1500 },

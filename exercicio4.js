@@ -12,6 +12,6 @@ function contarVogais(texto) {
   return contador;
 }
 
-// Teste com o exemplo fornecido
+
 const texto = "Hello World! Programando em JavaScript.";
 console.log(contarVogais(texto));
