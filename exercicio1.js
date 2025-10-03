@@ -2,7 +2,7 @@
 // Descrição
 // Crie uma função chamada `encontrarMaiorNumero` que recebe um array de números como argumento. A função deve retornar o maior número presente no array.
 
-const numeros = [12, 14, 16, 18, 999]
+const numeros = [123, 14, 16, 18, 99]
 let maiorNumero = 0
 
 function encontrarMaiorNumero(){
