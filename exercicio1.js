@@ -32,11 +32,6 @@ function encontrarMaiorNumero(numeros) {
   return maiorNumero;
 }
 
-// --- Exemplo de Uso ---
-// const numeros = [15, 8, 23, 4, 42, 16];
-// const resultado = encontrarMaiorNumero(numeros);
-// console.log(resultado); // Saída: 42
-
-// const arrayVazio = [];
-// const resultadoVazio = encontrarMaiorNumero(arrayVazio);
-// console.log(resultadoVazio); // Saída: null
+const numeros = [15, 8, 23, 4, 42, 16];
+const resultado = encontrarMaiorNumero(numeros);
+console.log(resultado);

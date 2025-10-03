@@ -8,7 +8,7 @@
 
 // Exemplo de Saída Esperada
 //javascript
-//10 // (e, o, o, a, o, a, o, e, i, a)
+//11 // (e, o, o, o, a, a, o, e, a, a, i)
 
 // Dicas
 // Use um loop `for` para iterar sobre cada caractere da string.
@@ -28,19 +28,6 @@ function contarVogais(texto) {
   return contador;
 }
 
-// // --- Exemplo de Uso ---
-// const texto1 = "Hello World! Programando em JavaScript.";
-// const resultado1 = contarVogais(texto1);
-// console.log(resultado1); // Saída: 10
-
-// const texto2 = "Rato roeu a roupa do rei de Roma";
-// const resultado2 = contarVogais(texto2);
-// console.log(resultado2); // Saída: 12
-
-// const texto3 = "XYZ";
-// const resultado3 = contarVogais(texto3);
-// console.log(resultado3); // Saída: 0
-
-// const texto4 = "";
-// const resultado4 = contarVogais(texto4);
-// console.log(resultado4); // Saída: 0
+const texto1 = "Hello World! Programando em JavaScript.";
+const resultado1 = contarVogais(texto1);
+console.log(resultado1);

@@ -38,23 +38,12 @@ function encontrarProdutoMaisCaro(produtos) {
   return produtoMaisCaro;
 }
 
-// // --- Exemplo de Uso ---
-// const produtos = [
-//   { nome: "Teclado Mecânico", preco: 350 },
-//   { nome: "Monitor Ultrawide", preco: 1500 },
-//   { nome: "Mouse Gamer", preco: 120 },
-//   { nome: "Webcam Full HD", preco: 200 }
-// ];
+const produtos = [
+  { nome: "Teclado Mecânico", preco: 350 },
+  { nome: "Monitor Ultrawide", preco: 1500 },
+  { nome: "Mouse Gamer", preco: 120 },
+  { nome: "Webcam Full HD", preco: 200 }
+];
 
-// const produtoEncontrado = encontrarProdutoMaisCaro(produtos);
-// console.log(produtoEncontrado); // Saída: { nome: "Monitor Ultrawide", preco: 1500 }
-
-// const produtosVazios = [];
-// const produtoVazio = encontrarProdutoMaisCaro(produtosVazios);
-// console.log(produtoVazio); // Saída: null
-
-// const produtosUnico = [
-//   { nome: "Fone de Ouvido", preco: 250 }
-// ];
-// const produtoUnico = encontrarProdutoMaisCaro(produtosUnico);
-// console.log(produtoUnico); // Saída: { nome: "Fone de Ouvido", preco: 250 }
+const produtoEncontrado = encontrarProdutoMaisCaro(produtos);
+console.log(produtoEncontrado);

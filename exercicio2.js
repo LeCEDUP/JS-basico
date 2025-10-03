@@ -27,19 +27,6 @@ function somarPares(numeros) {
   return soma;
 }
 
-// // --- Exemplo de Uso ---
-// const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// const resultado = somarPares(numeros);
-// console.log(resultado); // Saída: 30
-
-// const outrosNumeros = [1, 3, 5, 7, 9];
-// const resultadoImpares = somarPares(outrosNumeros);
-// console.log(resultadoImpares); // Saída: 0
-
-// const numerosMistos = [2, 11, 4, 1, 6];
-// const resultadoMistos = somarPares(numerosMistos);
-// console.log(resultadoMistos); // Saída: 12 (2 + 4 + 6)
-
-// const arrayVazio = [];
-// const resultadoVazio = somarPares(arrayVazio);
-// console.log(resultadoVazio); // Saída: 0
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const resultado = somarPares(numeros);
+console.log(resultado);

@@ -38,17 +38,11 @@ function verificarStatusAluno(aluno) {
   return `${aluno.nome}: ${status}`;
 }
 
-// // --- Exemplo de Uso ---
-// const aluno1 = { nome: "Maria", nota: 8.5 };
-// const aluno2 = { nome: "João", nota: 6.0 };
-// const aluno3 = { nome: "Ana", nota: 4.0 };
+// --- Exemplo de Uso ---
+const aluno1 = { nome: "Maria", nota: 8.5 };
+const aluno2 = { nome: "João", nota: 6.0 };
+const aluno3 = { nome: "Ana", nota: 4.0 };
 
-// console.log(verificarStatusAluno(aluno1)); // Saída: Maria: Aprovado
-// console.log(verificarStatusAluno(aluno2)); // Saída: João: Recuperação
-// console.log(verificarStatusAluno(aluno3)); // Saída: Ana: Reprovado
-
-// const aluno4 = { nome: "Pedro", nota: 7.0 };
-// console.log(verificarStatusAluno(aluno4)); // Saída: Pedro: Aprovado
-
-// const aluno5 = { nome: "Carla", nota: 4.9 };
-// console.log(verificarStatusAluno(aluno5)); // Saída: Carla: Reprovado
+console.log(verificarStatusAluno(aluno1)); // Saída: Maria: Aprovado
+console.log(verificarStatusAluno(aluno2)); // Saída: João: Recuperação
+console.log(verificarStatusAluno(aluno3)); // Saída: Ana: Reprovado
