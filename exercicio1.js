@@ -25,11 +25,13 @@
 const numeros = [55, 1, 10, 452, 421, 116];
 let numeroMaior = 0;
 
-for (i of numeros) {
+function encontrarMaiorNumero(lista, numMaior) {
+    for (i of numeros) {
     if (i > numeroMaior) {
         numeroMaior = i
-        console.log(i)
-    } else {
-        console.log("nao")
+        
     }
+    }
+    console.log(`O maior numero é ${numeroMaior}`)
 }
+encontrarMaiorNumero(numeros, numeroMaior)
