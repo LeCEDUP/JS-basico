@@ -18,7 +18,23 @@ const numeros = [15, 8, 23, 4, 42, 16];
 *   Dentro do loop, utilize uma estrutura condicional (`if`) para comparar o número atual com o maior número armazenado. Se o número atual for maior, atualize a variável.
 *   Lembre-se de lidar com o caso de um array vazio. */
 
-function encontrarMaiorNumero(numeros) {
-    if (numeros.length === 0) {
-        return null; // Retorna null se o array estiver vazio
-    
+const numeros = [15, 8, 23, 4, 42, 16];
+
+
+function encontrarMaiorNumero(array) {
+    if (array.length === 0) {
+        return null; 
+    }
+    let maior = array[0];
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] > maior) {
+            maior = array[i];
+        }
+    }
+    return maior;
+}
+
+
+console.log(encontrarMaiorNumero(numeros));
+
+
