@@ -119,7 +119,7 @@ const texto = "Hello World! Programando em JavaScript.";
 
 ### Exemplo de Saída Esperada
 ```javascript
-10 // (e, o, o, a, o, a, o, e, i, a)
+11 // (e, o, o, o, a, o, a, o, e, i, a)
 ```
 
 ### Dicas
