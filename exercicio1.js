@@ -23,11 +23,13 @@
 // ---
 
 const numeros = [55, 1, 10, 452, 421, 116];
-let numeroMaior;
+let numeroMaior = 0;
 
 for (i of numeros) {
     if (i > numeroMaior) {
-        numero = i
+        numeroMaior = i
         console.log(i)
+    } else {
+        console.log("nao")
     }
 }
