@@ -18,36 +18,32 @@
 // *   Dentro do loop, use uma estrutura condicional para verificar se o caractere atual é uma vogal.
 // *   Mantenha uma variável para contar as vogais.
 
-// ## Exercício 4: Funções e Strings - Contador de Vogais
 
-// ## Exercício 4: Funções e Strings - Contador de Vogais (separado por vogal)
 
 function contarVogais(texto) {
-    // Objeto para armazenar a contagem de cada vogal
-    let contador = {
-        a: 0,
-        e: 0,
-        i: 0,
-        o: 0,
-        u: 0
-    };
+ 
+    let contador = 0;
 
+   
     for (let i = 0; i < texto.length; i++) {
-        let char = texto[i].toLowerCase(); // ignora maiúsculas/minúsculas
-        if (char === "a") contador.a++;
-        else if (char === "e") contador.e++;
-        else if (char === "i") contador.i++;
-        else if (char === "o") contador.o++;
-        else if (char === "u") contador.u++;
+        let letra = texto[i].toLowerCase(); 
+
+        if (letra === 'a') {
+            contador++;
+        } else if (letra === 'e') {
+            contador++;
+        } else if (letra === 'i') {
+            contador++;
+        } else if (letra === 'o') {
+            contador++;
+        } else if (letra === 'u') {
+            contador++;
+        }
     }
 
-    // também retorna o total de vogais
-    let total = contador.a + contador.e + contador.i + contador.o + contador.u;
-
-    return { ...contador, total };
+    return contador;
 }
 
-// Exemplo de uso
 const texto = "Hello World! Programando em JavaScript.";
 console.log(contarVogais(texto));
 
