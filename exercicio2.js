@@ -5,16 +5,18 @@
 // ```javascript
 // const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-soma = 0
+const numeros1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
+const numeros2 = [1, 2, 3, 42, 5, 6, 7, 8, 9, 10, 12]
 
-function somarPares(){
-    for (i = 0; i < numeros.length+1; i++){
+function somarPares(numeros){
+    soma = 0
+
+    for (let i = 0; i < numeros.length; i++){
         if (numeros[i] % 2 === 0){
-            soma += i
+            soma += numeros[i]
         }
     }
-    return `Soma de todos os números pares: ${soma}`
+    return soma
 }
 
-console.log(somarPares(numeros))
+console.log(`Soma de todos os números pares: ${somarPares(numeros2)}`)

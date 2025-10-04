@@ -28,7 +28,6 @@ const produtos = [
     { nome: "Webcam Full HD", preco: 200 }];
 
 
-
 function encontrarProdutoMaisCaro(){
 
     let maisCaro = produtos[0]
@@ -38,8 +37,7 @@ function encontrarProdutoMaisCaro(){
             maisCaro = produtos[i]
         }
     }
-
-    return `O produto mais caro é: [${maisCaro.nome}, custando R$${maisCaro.preco},00.]`
+    return maisCaro
 }
 
-console.log(encontrarProdutoMaisCaro(produtos))
+console.log(`O produto mais caro é: [${encontrarProdutoMaisCaro(produtos).nome}, custando R$${encontrarProdutoMaisCaro(produtos).preco}]`)
