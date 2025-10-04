@@ -29,9 +29,9 @@ const produtos = [
 
 
 
-function encontrarProdutoMaisCaro(produtos){
+function encontrarProdutoMaisCaro(){
 
-    let maisCaro = produtos[0];
+    let maisCaro = produtos[0]
 
     for (i = 0; i < produtos.length; i++){
         if (produtos[i].preco > maisCaro.preco){
