@@ -10,12 +10,11 @@ soma = 0
 
 function somarPares(){
     for (i = 0; i < numeros.length+1; i++){
-        console.log(i)
         if (numeros[i] % 2 === 0){
             soma += i
         }
     }
-    console.log(`Soma de todos os números pares: ${soma}`)
+    return `Soma de todos os números pares: ${soma}`
 }
 
-somarPares(numeros)
+console.log(somarPares(numeros))

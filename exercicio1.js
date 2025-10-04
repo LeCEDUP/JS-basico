@@ -10,7 +10,7 @@ function encontrarMaiorNumero(){
         if (numeros[i] > maiorNumero){
             maiorNumero = numeros[i]
         }
-    console.log(maiorNumero)
+    return `O maior número é ${maiorNumero}`
 }
 
-encontrarMaiorNumero(numeros)
+console.log(encontrarMaiorNumero(numeros))
