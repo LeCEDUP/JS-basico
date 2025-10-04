@@ -22,25 +22,30 @@ A função deve retornar uma string indicando o status do aluno de acordo com as
 
 ---*/
 
-const aluno1 = { nome: "Maria", nota: 8.5 };
-const aluno2 = { nome: "João", nota: 6.0 };
-const aluno3 = { nome: "Ana", nota: 4.0 };
+const aluno1 = { nome: "Jeovana", nota: 10 };
+const aluno2 = { nome: "Julia", nota: 5.5 };
+const aluno3 = { nome: "Lulu", nota: 3.0 };
+const aluno4 = { }
 
 function verificarStatusAluno(aluno) {
     let status;
     if(aluno.nota >= 7) {
         status = "Aprovado";
     }
-    if(aluno.nota >= 5 && aluno.nota < 7) {
+    else if(aluno.nota >= 5 && aluno.nota < 7) {
         status = "Recuperação";
     }
-    if(aluno.nota < 5) {
+    else if(aluno.nota < 5) {
         status = "Reprovado";
-    }   
+    }
+    else {status = "Nota inválida";}
+    return  `Condição do ${aluno.nome},será: ${status}`;
+}
 
-    return `${aluno.nome}: ${status}`;
-}   
+  
+
 
 console.log(verificarStatusAluno(aluno1));
 console.log(verificarStatusAluno(aluno2));
 console.log(verificarStatusAluno(aluno3));
+console.log (verificarStatusAluno(aluno4));
