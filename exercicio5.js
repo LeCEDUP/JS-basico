@@ -16,4 +16,4 @@ function encontrarProdutoMaisCaro(array) {
     return maisCaro.preco
 }
 
-console.log(`O produto mais caro da lista é ${maisCaro.nome} com o preço de ${encontrarProdutoMaisCaro(produtos)}`)
+console.log(`O produto mais caro da lista é ${produtos[2].nome} com o preço de ${encontrarProdutoMaisCaro(produtos)}`)
