@@ -22,28 +22,23 @@
 // Dentro do loop, compare o preço do produto atual com o preço do produto mais caro armazenado. Se o produto atual for mais caro, atualize a variável.
 // Lembre-se de lidar com o caso de um array vazio.
 
-function encontrarProdutoMaisCaro(produtos) {
-  if (produtos.length === 0) {
-    return null;
-  }
-
-  let produtoMaisCaro = produtos[0];
-
-  for (const produto of produtos) {
-    if (produto.preco > produtoMaisCaro.preco) {
-      produtoMaisCaro = produto;
-    }
-  }
-
-  return produtoMaisCaro;
-}
-
 const produtos = [
-  { nome: "Teclado Mecânico", preco: 350 },
-  { nome: "Monitor Ultrawide", preco: 1500 },
-  { nome: "Mouse Gamer", preco: 120 },
-  { nome: "Webcam Full HD", preco: 200 }
+    { nome: "Teclado Mecânico", preco: 350 },
+    { nome: "Monitor Ultrawide", preco: 1500 },
+    { nome: "Mouse Gamer", preco: 120 },
+    { nome: "Webcam Full HD", preco: 200 }
 ];
 
-const produtoEncontrado = encontrarProdutoMaisCaro(produtos);
-console.log(produtoEncontrado);
+function encontrarProdutoMaisCaro(produtos) {
+    let produtoMaisCaro = produtos [0]
+
+    for (let i of produtos) {
+        if (i.preco > produtoMaisCaro.preco) {
+            produtoMaisCaro = i;
+        }
+    }
+
+    return produtoMaisCaro;
+}
+
+console.log(encontrarProdutoMaisCaro(produtos));
