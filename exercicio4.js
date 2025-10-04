@@ -1,19 +1,42 @@
 // ## Exercício 4: Funções e Strings - Contador de Vogais
 
-// ### Descrição
-// Crie uma função chamada `contarVogais` que recebe uma string como argumento. A função deve retornar o número total de vogais (a, e, i, o, u), tanto maiúsculas quanto minúsculas, presentes na string.
+const frase = "O PeDRO NaO FaZ NADA"
+let listaDeVogais = []
+let numeroDeVogal = 0
 
-// ### Exemplo de Entrada
-// ```javascript
-// const texto = "Hello World! Programando em JavaScript.";
-// ```
+function contarVogais(frases){
+    
+    for (i = 0; i < frases.length; i++) {
+        let fraseNova = frases.toLowerCase()
+        if (fraseNova[i] === "a") {
+            numeroDeVogal += 1
+            listaDeVogais.push(frases[i])
+        }
 
-// ### Exemplo de Saída Esperada
-// ```javascript
-// 10 // (e, o, o, a, o, a, o, e, i, a)
-// ```
+        if (fraseNova[i] === "e") {
+            numeroDeVogal += 1
+            listaDeVogais.push(frases[i])
+        }
 
-// ### Dicas
-// *   Use um loop `for` para iterar sobre cada caractere da string.
-// *   Dentro do loop, use uma estrutura condicional para verificar se o caractere atual é uma vogal.
-// *   Mantenha uma variável para contar as vogais.
+        if (fraseNova[i] === "i") {
+            numeroDeVogal += 1
+            listaDeVogais.push(frases[i])
+        }
+
+        if (fraseNova[i] === "o") {
+            numeroDeVogal += 1
+            listaDeVogais.push(frases[i])
+        }
+
+        if (fraseNova[i] === "u") {
+            numeroDeVogal += 1
+            listaDeVogais.push(frases[i])
+        }
+
+      
+    }
+    return numeroDeVogal
+}
+console.log(`A frase é: ${frase}
+O numero de vogais nela é: ${contarVogais(frase)}
+Lista das vogais: ${listaDeVogais}`)
