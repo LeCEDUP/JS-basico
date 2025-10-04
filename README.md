@@ -158,3 +158,5 @@ const produtos = [
 *   Lembre-se de lidar com o caso de um array vazio.
 
 ---
+primeiro comit
+
