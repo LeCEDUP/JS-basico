@@ -16,6 +16,7 @@ const aluno4 = {
     nome: "Lele",
     nota: 5.5
 }
+
 function verificarStatusAluno(aluno) {
     let situacao = ""
     if (aluno.nota >= 7) {
@@ -25,10 +26,10 @@ function verificarStatusAluno(aluno) {
     } else {
         situacao = "Reprovado"
     }
-    console.log(`A situação do aluno ${aluno.nome} é: ${situacao}!`)
+    return situacao
 }
 
-verificarStatusAluno(aluno1)
-verificarStatusAluno(aluno2)
-verificarStatusAluno(aluno3)
-verificarStatusAluno(aluno4)
+console.log(`A situação do aluno ${aluno1.nome} é: ${verificarStatusAluno(aluno1)}
+A situação do aluno ${aluno2.nome} é: ${verificarStatusAluno(aluno2)}
+A situação do aluno ${aluno3.nome} é: ${verificarStatusAluno(aluno3)}
+A situação do aluno ${aluno4.nome} é: ${verificarStatusAluno(aluno4)}`)

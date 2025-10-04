@@ -8,7 +8,7 @@ function somarPares(lista) {
             soma += i
         }
     }
-    console.log(`A soma de todos os numeros pares da lista [${lista}] é: ${soma}`)
+    return soma
 }
 
-somarPares(numeros)
+console.log(`A soma de todos os numeros pares da lista [${numeros}] é: ${somarPares(numeros)}`)
