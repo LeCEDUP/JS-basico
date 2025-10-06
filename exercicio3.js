@@ -12,6 +12,9 @@ function verificarStatusAluno(aluno){
     if (notaDoAluno >= 7){
          situacao = "Aprovado"
     }
+    else if (notaDoAluno >= 5 && notaDoAluno<7){
+        situacao = "Recuperação"
+    }
     else {
         situacao = "Reprovado"
     }
