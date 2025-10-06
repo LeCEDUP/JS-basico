@@ -15,4 +15,4 @@ function encontrarMaiorNumero(numeros){
     return maiorNumero
 }
 
-console.log(`O maior número é ${encontrarMaiorNumero((numeros1).maiorNumero)}`)
+console.log(`O maior número é ${encontrarMaiorNumero(numeros2)}`)

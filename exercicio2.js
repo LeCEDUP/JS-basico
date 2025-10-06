@@ -6,7 +6,7 @@
 // const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const numeros1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12]
-const numeros2 = [1, 2, 3, 42, 5, 6, 7, 8, 9, 10, 12]
+const numeros2 = [1, 2, 3, 80, 5, 6, 7, 8, 9, 10]
 
 function somarPares(numeros){
     soma = 0
