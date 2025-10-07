@@ -34,8 +34,16 @@ const produtos = [ videogame = { nome: "Video Game", preco: 2500 },
 
 function encontrarProdutoMaisCaro(produtos) {
     if (produtos.length === 0) {
-        return null; 
+        return null;
     }
+    let maisCaro = produtos[0];
+    for (let i = 1; i < produtos.length; i++) {
+        if (produtos[i].preco > maisCaro.preco) {
+            maisCaro = produtos[i];
+        }
+    }
+    return maisCaro;
 }
 
-  
+  console.log(encontrarProdutoMaisCaro(produtos));
+
