@@ -1,4 +1,4 @@
-function encontrarMaiorNumero(array) {
+function MaxNumero(array) {
   if (array.length === 0) {
     return null;
   }
@@ -9,10 +9,10 @@ function encontrarMaiorNumero(array) {
     if (array[i] > maior) {
       maior = array[i];
     }
-  }
+  } 
 
   return maior;
 }
 
 const numeros = [15, 8, 23, 4, 42, 16];
-console.log(encontrarMaiorNumero(numeros));
+console.log(MaxNumero(numeros));
