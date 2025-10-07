@@ -22,4 +22,4 @@ console.log(Aluno(aluno1)); // "Jorge: Aprovado"
 console.log(Aluno(aluno2)); // "Mario: Recuperação"
 console.log(Aluno(aluno3)); // "Luiza: Reprovado"
    24 changes: 24 additions & 0 deletions24  
-exercicio4.js
+exercicio4.js 

@@ -9,7 +9,7 @@ function MaxNumero(array) {
     if (array[i] > maior) {
       maior = array[i];
     }
-  }
+  } 
 
   return maior;
 }

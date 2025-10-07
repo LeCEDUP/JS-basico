@@ -14,7 +14,7 @@ function Vogais(texto) {
       contador++;
     }
   }
-
+ 
   return contador;
 }
 

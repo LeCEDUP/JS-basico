@@ -2,7 +2,7 @@ function ProdutoMaisCaro(produtos) {
 
   if (produtos.length === 0) {
     return null; 
-  }
+  } 
 
 
   let produtoMaisCaro = produtos[0];
