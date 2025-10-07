@@ -157,4 +157,3 @@ const produtos = [
 *   Dentro do loop, compare o preço do produto atual com o preço do produto mais caro armazenado. Se o produto atual for mais caro, atualize a variável.
 *   Lembre-se de lidar com o caso de um array vazio.
 
----
