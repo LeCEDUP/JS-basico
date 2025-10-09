@@ -18,7 +18,9 @@
 // };
 
 
-const encontrarMaiorNumero = (arrnum) => arrnum.reduce((acumulador, atual) => acumulador > atual ? acumulador : atual);
+const encontrarMaiorNumero = (arrnum) => arrnum.reduce((acumulador, atual) => {
+    return acumulador > atual ? acumulador : atual;
+});
 
 const numeros = [-15, 8, 23, 1000, 42, 16];
 console.log(encontrarMaiorNumero(numeros))
